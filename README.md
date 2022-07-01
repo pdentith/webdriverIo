@@ -20,3 +20,25 @@
    1) A simple counter component
 3) Write a test that succesfully tests both successes and failures for each component
 4) When done, commit your work to your clone of this repository. Add any instructions we need to build your work. Send us a link to your clone.
+
+## Instructions Cypress
+
+1) To run cypress suite in ui 
+   1) npm install cypress --save-dev -> to instll if needed
+   2) npx cypress open -> will open the test runner v1 is new so you may need to click e2e 
+   3) test file is the-flock-app.cy.js -> clicking the file should run the tests
+2) to run in command line
+   1) npx cypress run -> params --headed or --browser chrome, chromium, edge, electron, firefox
+
+## Instructions Webdriver IO
+
+1) npx wdio run wdio.conf.js  will run tests and launch chrome browser
+ NOTE: tested with chrome and spec reporter.
+
+## Issues
+1) Checkbox alignment in list and bullet points
+2) Checking a todo to remove it middle list, keeps the box below it checked
+3) Counter is text not int, 2 digits not handled in display
+4) Calculator not exponent support ^
+5) Todos passing in "     "returns ""
+6) Couldn't get unicode characters going in webdriver
